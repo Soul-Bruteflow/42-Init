@@ -1,0 +1,6 @@
+# To find the provider of slash16.org we can use whois command
+# whois "domain name" without quotes will display providedr under "Name Server:"
+# For slash16.org it is AWS a.k.a. Amazon Web Services a.k.a. Amazon
+
+# Example
+whois slash16.org | grep 'Name Server:' | awk '{print $3}'

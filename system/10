@@ -1,0 +1,4 @@
+fdisk -l
+
+# Or
+lsblk

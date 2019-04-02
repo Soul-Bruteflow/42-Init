@@ -1,0 +1,4 @@
+sudo service ssh stop
+
+# Or
+systemctl stop ssh

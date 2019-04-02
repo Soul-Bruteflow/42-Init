@@ -1,0 +1,10 @@
+# To find find the name and IP address of the device that makes the link
+# between you (local network) and the outside world we need fo find NAT.
+# NAT stand for "Network Address Translation".
+# NAT1 is what makes the link between local network and outside world.
+
+# 1 — Local IP
+# 2 — NAT IP
+# 3 — Public IP
+
+# NAT Server (10.9.0.1)

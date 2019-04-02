@@ -1,0 +1,7 @@
+uptime
+
+# Or
+who -b
+
+# Or
+cat /proc/uptime

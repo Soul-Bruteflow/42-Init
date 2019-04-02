@@ -1,0 +1,6 @@
+cat /var/run/resolv.conf
+
+# Deduction
+# IP address of the used DNS server is at etc/resolv.conf
+# If we use ls -l etc/resolv.conf we will see that it is symlink and it will show the full path that
+# /var/run/resolv.conf

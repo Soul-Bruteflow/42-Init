@@ -1,0 +1,3 @@
+# To connect yourself as new user:
+# Graphic session:	Input your login and password when asked.
+# SSH session:		'ssh <user>@<ip>' and after, when asked, input password.

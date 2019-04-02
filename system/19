@@ -1,0 +1,15 @@
+# Services that starts at the boot time are called daemons.
+# Command systemctl will show this services
+
+# Exemple :
+autovt@
+console-setup
+cron
+getty@
+keyboard-setup
+networking
+rsyslog
+ssh
+sshd
+systemd-timesyncd
+ufw

@@ -1,0 +1,6 @@
+# Find ip with MYIP = ifconfig en0 | grep "inet " | awk '{print $2}'
+# Then nslookup MYIP | grep name | awk '{print $4}';
+
+# Example:
+# nslookup 10.51.1.253
+# 253.1.51.10.in-addr.arpa name = dhcp.42.fr.

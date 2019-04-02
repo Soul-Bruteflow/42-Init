@@ -1,0 +1,7 @@
+cat /var/run/sshd.pid
+
+# Or
+ps aux | grep -e /usr/sbin/sshd | grep -v grep | tr -s " " | cut -d " " -f2
+
+# Or
+service ssh status | grep 'Main PID' | awk -F '[ ]' '{print $3" " $4}'
